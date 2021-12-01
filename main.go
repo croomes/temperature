@@ -49,7 +49,7 @@ func main() {
 		server.Run()
 	}()
 
-	ticker := time.NewTicker(10 * time.Second)
+	ticker := time.NewTicker(time.Second)
 
 	for {
 		select {
