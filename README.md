@@ -1,7 +1,7 @@
 # Temperature
 
 Reads temperature, humidity, pressure and altitude from a BME280 sensor and
-exposes as a Prometheus endpoint on http://<ip>:8080/metrics.  
+exposes as a Prometheus endpoint on http://<ip>:9090/metrics.  
 
 Metrics are updated every 10 seconds.
 

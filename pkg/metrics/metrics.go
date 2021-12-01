@@ -55,7 +55,7 @@ func (m *Metrics) Run() error {
 	// The Prometheus Handler function provides a default handler to expose
 	// metrics via an HTTP server. "/metrics" is the usual endpoint for that.
 	http.Handle("/metrics", promhttp.Handler())
-	return http.ListenAndServe(":8080", nil)
+	return http.ListenAndServe(":9090", nil)
 
 }
 
